@@ -1,0 +1,32 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore all compiled python files
+*.pyc
+__pycache__/
+
+# Ignore Rasa models (they can be large and generated)
+models/
+
+# Ignore Rasa temporary data (can regenerate when running the bot)
+.rasa/
+
+# Ignore log and cache files
+*.log
+*.cache
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE config files (e.g., for VSCode)
+.vscode/
+.idea/
+
+# Ignore any environment or configuration files that may contain sensitive information
+*.env
+credentials.yml
+
+# Ignore files related to Python packaging or installations
+pip-log.txt
+pip-delete-this-directory.txt
